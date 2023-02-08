@@ -95,7 +95,7 @@ public class MapActivity extends AppCompatActivity {
                     }
                     Task<Location> task = getLastLocation();
 
-                    task.addOnSuccessListener(new OnSuccessListener<Location>)
+//                    task.addOnSuccessListener(new OnSuccessListener<Location>)
 
 
                 }
