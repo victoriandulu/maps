@@ -104,3 +104,6 @@ public class MapActivity extends AppCompatActivity {
 
     }
 }
+
+    private Task getLastLocation() {
+    }
