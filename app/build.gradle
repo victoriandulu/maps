@@ -8,7 +8,7 @@ android {
     defaultConfig {
         applicationId "com.example.maps"
         minSdk 21
-        targetSdk 32
+        targetSdk 23
         versionCode 1
         versionName "1.0"
 
@@ -25,6 +25,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildToolsVersion '30.0.3'
 }
 
 dependencies {
@@ -40,4 +41,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
     implementation'com.google.android.gms:play-services-location:21.0.1'
+    //dexter dependency for requesting permission at runtime
+    implementation 'com.karumi:dexter:6.2.3'
 }
